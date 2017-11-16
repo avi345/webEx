@@ -1,0 +1,180 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body { width: 1280px; margin: auto; }
+nav,header,footer,main,aside,section,article{
+	display:block;
+}
+#wrapper{
+	width:1000px;
+	margin: 0 auto;
+}
+h3 {color: #5e6367; }
+a,h1,h2,li{
+	margin-left: 32px;
+}
+h4 { color: #b0b0b0;}
+a{
+	text-decoration:none;
+	color:white;
+}
+/* header */
+
+header{
+	height:65px;
+	width: 1280px;
+	background:#1b1e26;
+	color:white;
+
+}
+header span:first-child {
+	
+	font-family: 'Barlow Condensed', sans-serif;
+	
+}
+
+header span:last-child {
+    color: #776266;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#logo{
+	display: block;
+	width: 45px;
+    height: 44px;
+    font: arial;
+    font-size: 32px;
+    padding: 15px 2px 2px 105px;
+	background: url(../images/logo.png) no-repeat;	
+	background-size: 100px 70px;
+}
+
+
+/*Navigator*/
+nav{
+	width: 1280px;
+	height:40px;
+	line-height: 40px;
+	/*background:#E5E5E5;*/
+}
+nav a{
+	color:#aaacad;
+    font: arial;
+    font-size:30px;
+	padding: 12px 20px;
+}
+nav a:hover{
+    color:#3b3b47;
+}
+
+/*Main*/
+main{
+	background:white;
+    color: #9d9393;
+}
+main h1{
+	padding-left: 70px;	
+	color:#aaacad;
+	font-family:Arial;
+	font-size:36px;
+	    margin: 30px;
+}
+
+/*Photo*/
+main img{
+	    
+		height: 427px;
+		width: 1280px;
+}
+
+.img2
+{
+	height: 180px;
+	width: 320px;
+	margin-bottom:12px;
+}
+
+.img3
+{
+	margin-right: 10px;
+	float: left;
+	height: 40px;
+	width: 50px
+}
+.img4
+{
+	border-radius: 50%;
+	float: left;
+	height: 85px;
+	width: 82px;
+	margin-right: 22px;
+}
+/*Sections */
+
+.firstBlock
+{
+	height:430px;	
+	
+}
+hr{
+	margin:20px auto 35px auto;
+	width: 89%;
+	 border: 1px solid #e7e8ea;
+}
+
+.INfirstBlock
+{
+	width: 318px;
+	height:248px;
+	padding: 16px;
+	border: 2px solid #ebebeb;
+    border-radius: 5px;
+    border-bottom: 5px double #ebebeb;
+	margin-left:70px;
+	
+}
+.secondBlock
+{
+	height:152px;
+}
+.INsecondBlock
+{	
+		margin-top: 30px;
+		padding-left: 70px;
+		color: #555555;
+}
+.threadBlock
+{
+	height:265px;
+	background-color:#1d1e41;
+}
+.INthreadBlock
+{	
+	padding-top: 25px;
+	padding-left: 70px;
+	font-size: 20px;	
+}
+time{
+	color:#8e959c
+}
+.INthreadBlock h2{
+    color: #ffffff;
+	font-size: 25px;
+}
+/*Footer */
+footer{
+	padding-left: 75px;
+	height:92px;
+	background:white;
+}
+footer a{
+	
+        font-size: 30px;
+		line-height: 43px;
+	    color:black;
+}
+ul {
+  list-style-type: none;
+}
