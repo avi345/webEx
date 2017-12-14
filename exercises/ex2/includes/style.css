@@ -1,35 +1,33 @@
 
-/*layout1*/
 
+
+header, nav, main, section, article, footer, aside {
+    display: block;
+}
+
+/*layout1*/
 
 body{
 	width:1000px;
 	margin:0px auto;
 }
 
-header, nav, main, section, article, footer, aside {
-    display: block;
-}
 
 #layout1 header{
-	background-color:#cac8ce;
-	height:185px;
+	background-color:#d6d6d6;
+	height:192px;
 	width:100%;
 }
 
 #logo{
-	background-image:url("../images/logo.png");
-	background-repeat: no-repeat;	
 	display:block;
 	position:relative;
+	background-image:url("../images/logo.png");
+	background-repeat: no-repeat;	
 	top:45px;
-	width:100px;
-	height:100px;
+	width:106px;
+	height:102px;
 	margin:0px auto;
-}
-
-#layout1 main{
-	direction:rtl;
 }
 
 #layout1 nav{
@@ -40,27 +38,23 @@ header, nav, main, section, article, footer, aside {
 }
 
 #layout1 nav ul{
-	list-style-type:none;
 	margin:0px;
 	padding:0px;
 	margin-left:45px;
-}
-
-
-#layout1 nav ul li{
-	float: left;
+	list-style-type:none;
 }
 
 #layout1 nav a{
 	text-decoration: none;
-	color:#ebffff;
-	font-family: "Arial";
+	color:white;
+	font-family: cursiv;
 	display:inline-block;	
 }
 
-#layout1 nav li > a{
-	margin:20px 85px;
-}
+#layout1 nav ul li{float: left;}
+
+#layout1 nav li > a{margin:20px 85px;}
+
 #layout1 nav span a{
 	background-color:#003748;
 	color:white;
@@ -85,6 +79,9 @@ header, nav, main, section, article, footer, aside {
 	top:265px;
 	margin-right:10px;
 }
+
+#layout1 main{direction:rtl;}
+
 #layout1 artical{
 	display:inline-block;
 	margin-top:100px;
@@ -118,38 +115,25 @@ header, nav, main, section, article, footer, aside {
 #layout1 footer{
 	height:50px;
 	width:100%;
-	background-color:#cac8ce;
+	background-color:#d6d6d6;
 }
 
 
 
 /*layout2*/
 
-#layout2{
-	width:1000px;
-	margin:0px auto;
-}
+
 
 #layout2 header{
 	background-color:#cac8ce;
-	height:185px;
+	height:192px;
 	width:100%;
-}
-
-#logo{
-	background-image:url("../images/logo.png");
-	background-repeat: no-repeat;	
-	position:relative;
-	top:45px;
-	width:100px;
-	height:100px;
-	margin:0px auto;
 }
 
 #layout2 main{
 	display:flex;
 	flex-direction:row;
-	height:760px;
+	height:759px;
 }
 
 #layout2 nav{
@@ -165,12 +149,12 @@ header, nav, main, section, article, footer, aside {
 }
 
 #layout2 nav a{
+	font-family: cursive;
+	color:white;
 	display:inline-block;
 	margin-top:20px;
 	margin-left:5px;
 	text-decoration: none;
-	color:#ebffff;
-	font-family: cursive;
 }
 
 
@@ -192,7 +176,7 @@ header, nav, main, section, article, footer, aside {
 }
 
 #layout2 aside section{
-	background-color:#68d268;
+	background-color:#62c462;
 	width:80px;
 	height:68px;
 	position:relative;
@@ -207,7 +191,7 @@ header, nav, main, section, article, footer, aside {
 }
 #layout2 artical section{
 	position: relative;
-    background: #68d268;
+    background: #62c462;
     width: 189px;
 }
 #layout2 artical section:nth-child(1){
@@ -239,9 +223,108 @@ header, nav, main, section, article, footer, aside {
 	clear:both;
 }
 #layout2 footer{
+	position: fixed;
+    bottom: 0px;
 	height:50px;
 	width:1000px;
 	background-color:#cac8ce;
 }
-/*EOF*/
 
+/*//////////////////Layout3////////////////*/
+
+@viewport {
+	width:520px;
+	zoom:1;
+}
+#layout3  {
+		max-width: 1000px;
+		margin: 0px auto;
+		font-size: 16px;
+	}
+
+#layout3 header{
+	background-color: #d6d6d6;
+    height: 192px;
+    width: 100%;
+}
+
+
+#layout3 nav{
+	direction:ltr;
+	background-color:#337ab7;
+	
+	width:100%;	
+	height:60px;
+}
+
+#layout3 nav ul{
+	margin:0px;
+	padding:0px;
+	margin-left:95px;
+	list-style-type:none;
+}
+
+#layout3 nav a{
+	text-decoration: none;
+	color:white;
+	font-family: cursiv;
+	display:inline-block;	
+}
+
+#layout3 nav ul li{float: left;}
+
+#layout3 nav li > a{margin:13px 85px;}
+
+#layout3 nav span a{
+	background-color:#003748;
+	color:white;
+	padding: 13px 85px;
+}
+	 #blocks p {
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		text-align: center;
+		width: 500px;
+		height: 270px;
+		position: relative;
+	}
+	
+ #blocks{
+	margin-top: -16px;
+	height:100%;
+	display:inline-block;
+}
+
+ #blocks p img{
+	width:33%;
+	height:33%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+
+
+#layout3 footer{
+	height:50px;
+	width:100%;
+	margin-top:-5px;
+	background-color:#d6d6d6;
+}
+
+@media screen and (min-width : 1000px){
+		 #blocks p {
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		text-align: center;
+		width: 333px;
+		height: 270px;
+		position: relative;
+	}
+	
+}
