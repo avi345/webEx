@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Avi Levi - ex3</title>
+        <link rel="stylesheet" href="includes/style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <form   action="http://html5-book.co.il/teach/forms/get_form2.php"
+                    method="get" autocomplete="on">
+                <p>
+                     Your name :<label><input type="text" name="fullName" placeholder="Enter the name!" value="" required title="just enter the name.." ></label>
+                </p>
+				<br>
+                <p>
+                     Password :<label><input type="password" name="pass" required title="must enter password.." ></label>
+                </p>
+				<br>
+                <p>
+                     Mail :<label><input type="email" name="mail" placeholder="Username@domain.com" value required></label>
+                </p>
+				<br>
+                <p>
+                    Enter URL : <label><input type="url" name="website" value=""></label>
+                </p>
+				<br>
+                <p>
+                     Phone number : <label><input type="tel" pattern="[0][5][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" name="phone" maxlength="10"></label>
+                </p>
+				<br>
+                <p>
+                    How many cups of coffee you drink a day : <label><input type="number" name="coffee"></label>
+                </p>
+				<br>
+                <p>
+                    What is the temperature now :<label> -5<input type="range" name="temper" value="" min="-5" max="40">40</label>
+                </p>
+				<br>
+                <p>
+                     Your address<label> <textarea name="address" rows="1" cols="22"></textarea></label>
+                </p>
+				<br>
+                <p>
+                    What do you like?
+                    <label>
+                        A <input type="checkbox" name="interests[]" value="A">
+                        B <input type="checkbox" name="interests[]" value="B">
+                        C <input type="checkbox" name="interests[]" value="C">
+                        D <input type="checkbox" name="interests[]" value="D">
+                    </label>
+                </p>
+				<br>
+                <p>
+                    Whats your gender?
+                    <label>
+                        Male<input type="radio" name="gender" value="male">
+                        Female<input type="radio" name="gender" value="female">
+                        Other<input type="radio" name="gender" value="other" checked>
+                    </label>
+                </p>
+				<br>
+                <p>
+                    What is your age?
+                    <label>
+                        <select name="age">
+						
+							<option value="5" selected>5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+							<option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+							<option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                        </select>
+                    </label>
+                </p>
+				<br>
+				
+                <input type="submit" value="Finish and send"> 
+            </form>
+        </div>
+    </body>
+</html>
+

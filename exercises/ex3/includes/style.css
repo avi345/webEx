@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding:0;
+}
+nav,header,footer,main,section,article,body,label{
+	display:block;
+}
+body{
+	background-color: #372a2a;
+}
+#wrapper{
+	padding-top: 25px;
+	width: 400px;
+	background-color:#ffffff;
+	margin: 15px auto;
+
+}
+p{
+	padding-left: 10px;
+	font-family: cursiv;
+	font-size: 15px;
+}
+input[type="submit"] {
+    margin-left: 10px;
+	
+	background-color:red;
+}
+
+
+/*EOF*/
